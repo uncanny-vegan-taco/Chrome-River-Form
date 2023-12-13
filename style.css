@@ -1,12 +1,60 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--green);
+}
+:root {
+  --orange: #f8b400;
+  --light: #faf5e4;
+  --green: #2c786c;
+  --blue: #004445;
+}
+h1 {
+  color: var(--blue);
 }
 form {
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
+  background-color: var(--light);
+  padding: 30px;
+  font-size: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.397);
+  border-radius: 8px;
+}
+
+.click {
+  color: var(--blue);
+  background-color: var(--orange);
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: 200ms ease-in-out;
+}
+.click:hover {
+  background-color: var(--blue);
+  color: var(--light);
+}
+.text {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px dashed var(--blue);
+  background-color: var(--light);
+  font-size: 16px;
+  width: 60%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.section {
+  margin-top: 20px;
+}
+.upload {
+  margin-top: 5px;
 }
 .container {
   margin: 0 auto;
   text-align: center;
+  margin-top: 100px;
 }

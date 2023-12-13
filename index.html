@@ -8,20 +8,35 @@
   </head>
   <body>
     <div class="container">
-      <h2>Chrome River Receipts</h2>
       <form>
-        <label for="name">Name</label>
-        <input type="text" placeholder="LPA Name Here" /><br />
-        <label for="card">Who's Card?</label>
-        <input type="radio" name="card" id="robin" />Robin
-        <input type="radio" name="card" id="lashona" />La Shona<br />
-        <label for="reason">Reason for Charge:</label><br />
-        <input type="text" placeholder="Description" /><br />
-        <label for="code">Billing Code:</label><br />
-        <input type="text" placeholder="xxx.xxxxxx.xxxx or xxxxxx.xxxx" /><br />
-        <label for="receipt">Upload PDF Receipt</label><br />
-        <input type="file" /><br />
-        <button type="submit">submit</button>
+        <h1>Chrome River Receipts</h1>
+        <div class="section">
+          <label for="name">Name</label><br />
+          <input type="text" placeholder="LPA Name Here" class="text" />
+        </div>
+        <div class="section">
+          <label for="card">Who's Card?</label>
+          <input type="radio" name="card" id="robin" />Robin
+          <input type="radio" name="card" id="lashona" />La Shona
+        </div>
+        <div class="section">
+          <label for="reason">Reason for Charge:</label><br />
+          <input type="text" placeholder="Description" class="text" />
+        </div>
+        <div class="section">
+          <label for="code">Billing Code:</label><br />
+          <input
+            type="text"
+            placeholder="xxx.xxxxxx.xxxx or xxxxxx.xxxx"
+            class="text"
+          />
+        </div>
+        <div class="section">
+          <label for="receipt">Upload PDF Receipt</label><br />
+          <input type="file" class="upload" />
+        </div>
+
+        <button type="submit" class="click">Submit</button>
       </form>
     </div>
   </body>
