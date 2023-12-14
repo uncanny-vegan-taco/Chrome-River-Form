@@ -8,24 +8,34 @@
   </head>
   <body>
     <div class="container">
-      <form action="/Receipt Storage/">
+      <form>
         <h1>Chrome River Receipts</h1>
         <div class="section">
           <label for="name">Name</label><br />
-          <input type="text" placeholder="LPA Name Here" class="text" />
+          <input
+            type="text"
+            placeholder="LPA Name Here"
+            class="text"
+            id="name"
+          />
         </div>
         <div class="section">
-          <label for="card">Who's Card?</label>
+          <label>Who's Card?</label>
           <input type="radio" name="card" id="robin" />Robin
           <input type="radio" name="card" id="lashona" />La Shona
         </div>
         <div class="section">
           <label for="date">Date of Purchase:</label><br />
-          <input type="text" placeholder="mm-dd" class="text" />
+          <input type="text" placeholder="mm-dd" class="text" id="date" />
         </div>
         <div class="section">
           <label for="reason">Reason for Charge:</label><br />
-          <input type="text" placeholder="Description" class="text" />
+          <input
+            type="text"
+            placeholder="Description"
+            class="text"
+            id="reason"
+          />
         </div>
         <div class="section">
           <label for="code">Billing Code:</label><br />
@@ -33,11 +43,12 @@
             type="text"
             placeholder="xxx.xxxxxx.xxxx or xxxxxx.xxxx"
             class="text"
+            id="code"
           />
         </div>
         <div class="section">
           <label for="receipt">Upload PDF Receipt</label><br />
-          <input type="file" class="upload" />
+          <input type="file" class="upload" id="receipt" />
         </div>
 
         <button type="submit" class="click">Submit</button>

@@ -1,4 +1,5 @@
-let email = "mailto:kyliwhite@perkinscoie.com";
 const buttonElement = document.querySelector("button");
-buttonElement.addEventListener("submit", () => {});
+buttonElement.addEventListener("submit", () => {
+  alert("HEllo");
+});
 //Send Form Info in email
